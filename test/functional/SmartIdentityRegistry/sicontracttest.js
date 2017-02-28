@@ -2,6 +2,8 @@
   * The purpose of this test contract is to test the functions in SmartIdentityRegistry.sol.
   */
 
+var SmartIdentityRegistry = artifacts.require("./SmartIdentityRegistry.sol");
+
 contract('SmartIdentityRegistry', function(accounts) {
 
     var registry,

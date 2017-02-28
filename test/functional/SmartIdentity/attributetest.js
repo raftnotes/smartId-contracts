@@ -3,6 +3,8 @@
   * that use attributes.
   */
 
+var SmartIdentity = artifacts.require("./SmartIdentity.sol");
+
 contract('SmartIdentity', function(accounts) {
 
     var smartIdentity,
